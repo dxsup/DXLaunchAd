@@ -8,18 +8,34 @@
 
 #import "AppDelegate.h"
 
+#define kDXScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kDXScreenHeight [UIScreen mainScreen].bounds.size.height
+
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self initWindowAndSetRootViewController];
     return YES;
 }
 
+- (void)initWindowAndSetRootViewController
+{
+    UIViewController *vc = [[UIViewController alloc] init];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(kDXScreenWidth/2, kDXScreenHeight/2, kDXScreenWidth, kDXScreenHeight/4)];
+    [label setText:@"This is the Home page."];
+    label.center = CGPointMake(kDXScreenWidth/2, kDXScreenHeight/2);
+    label.textAlignment = NSTextAlignmentCenter;
+    [vc.view addSubview:label];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = UIColor.whiteColor;
+    [self.window setRootViewController:vc];
+    [self.window makeKeyAndVisible];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

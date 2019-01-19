@@ -8,24 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		C2B7F88921F1BAAA005F004E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7F88821F1BAAA005F004E /* AppDelegate.m */; };
-		C2B7F88C21F1BAAA005F004E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7F88B21F1BAAA005F004E /* ViewController.m */; };
-		C2B7F88F21F1BAAA005F004E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B7F88D21F1BAAA005F004E /* Main.storyboard */; };
 		C2B7F89121F1BAAD005F004E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B7F89021F1BAAD005F004E /* Assets.xcassets */; };
 		C2B7F89421F1BAAD005F004E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B7F89221F1BAAD005F004E /* LaunchScreen.storyboard */; };
 		C2B7F89721F1BAAD005F004E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7F89621F1BAAD005F004E /* main.m */; };
+		C2B7F8A721F1C71A005F004E /* DXLaunchAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7F8A421F1C71A005F004E /* DXLaunchAdView.m */; };
+		C2B7F8A821F1C71A005F004E /* DXLaunchAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B7F8A521F1C71A005F004E /* DXLaunchAdManager.m */; };
+		C2B7F8AA21F1CB44005F004E /* firstScreenAd.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C2B7F8A921F1CB44005F004E /* firstScreenAd.jpeg */; };
+		C2B7F8AC21F1CB7A005F004E /* 50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B7F8AB21F1CB7A005F004E /* 50x50@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C2B7F88421F1BAAA005F004E /* DXLaunchAdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DXLaunchAdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B7F88721F1BAAA005F004E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C2B7F88821F1BAAA005F004E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C2B7F88A21F1BAAA005F004E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C2B7F88B21F1BAAA005F004E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C2B7F88E21F1BAAA005F004E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2B7F89021F1BAAD005F004E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2B7F89321F1BAAD005F004E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2B7F89521F1BAAD005F004E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2B7F89621F1BAAD005F004E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2B7F8A321F1C71A005F004E /* DXLaunchAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXLaunchAdManager.h; sourceTree = "<group>"; };
+		C2B7F8A421F1C71A005F004E /* DXLaunchAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXLaunchAdView.m; sourceTree = "<group>"; };
+		C2B7F8A521F1C71A005F004E /* DXLaunchAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXLaunchAdManager.m; sourceTree = "<group>"; };
+		C2B7F8A621F1C71A005F004E /* DXLaunchAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXLaunchAdView.h; sourceTree = "<group>"; };
+		C2B7F8A921F1CB44005F004E /* firstScreenAd.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = firstScreenAd.jpeg; sourceTree = "<group>"; };
+		C2B7F8AB21F1CB7A005F004E /* 50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "50x50@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C22A6BE921F2FF5A0090F4D5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C2B7F8AB21F1CB7A005F004E /* 50x50@2x.png */,
+				C2B7F8A921F1CB44005F004E /* firstScreenAd.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		C2B7F87B21F1BAAA005F004E = {
 			isa = PBXGroup;
 			children = (
@@ -58,17 +72,27 @@
 		C2B7F88621F1BAAA005F004E /* DXLaunchAdDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C22A6BE921F2FF5A0090F4D5 /* Images */,
+				C2B7F89D21F1BABE005F004E /* DXLaunchAd */,
 				C2B7F88721F1BAAA005F004E /* AppDelegate.h */,
 				C2B7F88821F1BAAA005F004E /* AppDelegate.m */,
-				C2B7F88A21F1BAAA005F004E /* ViewController.h */,
-				C2B7F88B21F1BAAA005F004E /* ViewController.m */,
-				C2B7F88D21F1BAAA005F004E /* Main.storyboard */,
 				C2B7F89021F1BAAD005F004E /* Assets.xcassets */,
 				C2B7F89221F1BAAD005F004E /* LaunchScreen.storyboard */,
 				C2B7F89521F1BAAD005F004E /* Info.plist */,
 				C2B7F89621F1BAAD005F004E /* main.m */,
 			);
 			path = DXLaunchAdDemo;
+			sourceTree = "<group>";
+		};
+		C2B7F89D21F1BABE005F004E /* DXLaunchAd */ = {
+			isa = PBXGroup;
+			children = (
+				C2B7F8A321F1C71A005F004E /* DXLaunchAdManager.h */,
+				C2B7F8A521F1C71A005F004E /* DXLaunchAdManager.m */,
+				C2B7F8A621F1C71A005F004E /* DXLaunchAdView.h */,
+				C2B7F8A421F1C71A005F004E /* DXLaunchAdView.m */,
+			);
+			path = DXLaunchAd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +154,8 @@
 			files = (
 				C2B7F89421F1BAAD005F004E /* LaunchScreen.storyboard in Resources */,
 				C2B7F89121F1BAAD005F004E /* Assets.xcassets in Resources */,
-				C2B7F88F21F1BAAA005F004E /* Main.storyboard in Resources */,
+				C2B7F8AC21F1CB7A005F004E /* 50x50@2x.png in Resources */,
+				C2B7F8AA21F1CB44005F004E /* firstScreenAd.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +166,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2B7F88C21F1BAAA005F004E /* ViewController.m in Sources */,
+				C2B7F8A721F1C71A005F004E /* DXLaunchAdView.m in Sources */,
+				C2B7F8A821F1C71A005F004E /* DXLaunchAdManager.m in Sources */,
 				C2B7F89721F1BAAD005F004E /* main.m in Sources */,
 				C2B7F88921F1BAAA005F004E /* AppDelegate.m in Sources */,
 			);
@@ -150,14 +176,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C2B7F88D21F1BAAA005F004E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2B7F88E21F1BAAA005F004E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C2B7F89221F1BAAD005F004E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ARWST847M4;
 				INFOPLIST_FILE = DXLaunchAdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ARWST847M4;
 				INFOPLIST_FILE = DXLaunchAdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
